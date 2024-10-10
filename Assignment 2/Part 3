@@ -1,0 +1,22 @@
+3.1 
+a. Accuracy is the percentage of all the observations our system labeled correctly. 
+Precision measures the percentage of the items that the system detected (i.e., the system labeled as positive) that are in fact positive.
+Recall measures the percentage of items actually present in the input that were
+correctly identified by the system.
+
+b. Accuracy = number of correctly classified labels / all labels
+Precision = true positives / true positives + false positives 
+Recall = true positives / true positives + false negatives
+
+c. Accuracy can't usually be dependent on because it might show that we have a great model as the accuracy percentage may be high but in reality that's not true.
+For example,in a probabilistic classification if we are classifying how many bad reviews there are for a song and the majority of the reviews are positive 
+then our classifier will always report that the reviews are positive and always misclassify the negative ones. But since most reviews are positive the accuracy 
+percentage will be quite high. However, precision and recall are more reliable as they put emphasis on the true positives as the metrics show how many items have 
+actually been classified correctly. Specifically, precision by comparing it with the ones that were incorrecty classified as positive and recall by comparing it 
+with the ones that were incorrecty classified as false but are actually positive. A perfect model would have high precision and high recall. Nevertheless,
+that doesn't happen quite often.
+
+3.2 
+Accuracy = 8/10 = 0.8 (80%)
+Precision = 4/(4+1) = 4/5 = 0.8 (80%)
+Recall = 4/(4+1) = 4/5 = 0.8 (80%)
